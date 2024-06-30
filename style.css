@@ -1,0 +1,62 @@
+body {
+    height: 100%;
+    margin: 0%;
+    background-color:black;
+    font-family: arial;
+    color: white;
+    text-align: center;
+}
+h1{
+    color:grey;
+    font-family: 'verdana';
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    height: 100vh;           /* Full viewport height */
+}
+
+.maindiv{
+    background-color: white;
+    color: black;
+    width:300px;
+    padding:20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.butt {
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(189, 207, 106);
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.butt:hover {
+    background-color: rgb(159, 187, 76);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.butt:active {
+    background-color: rgb(139, 167, 56);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.butt:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(189, 207, 106, 0.5);
+}
+
+.interest{
+    margin-top:10px;
+}
